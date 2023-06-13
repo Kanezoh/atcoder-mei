@@ -24,5 +24,8 @@ typedef long long ll;
 // return n * (2 * a1 + (n - 1) * d) /2
 
 int main() {
+  ll a,b;
+  cin>>a>>b;
+  OUT(a+b);
 }
 
