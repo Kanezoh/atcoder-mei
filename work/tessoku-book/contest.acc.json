@@ -20,73 +20,133 @@
       "id": "tessoku_book_b",
       "label": "A02",
       "title": "Linear Search",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_b"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_b",
+      "directory": {
+        "path": "a02",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_c",
       "label": "A03",
       "title": "Two Cards",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_c"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_c",
+      "directory": {
+        "path": "a03",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_d",
       "label": "A04",
       "title": "Binary Representation 1",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_d"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_d",
+      "directory": {
+        "path": "a04",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_e",
       "label": "A05",
       "title": "Three Cards",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_e"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_e",
+      "directory": {
+        "path": "a05",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "math_and_algorithm_ai",
       "label": "A06",
       "title": "How Many Guests?",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/math_and_algorithm_ai"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/math_and_algorithm_ai",
+      "directory": {
+        "path": "a06",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_g",
       "label": "A07",
       "title": "Event Attendance",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_g"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_g",
+      "directory": {
+        "path": "a07",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_h",
       "label": "A08",
       "title": "Two Dimensional Sum",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_h"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_h",
+      "directory": {
+        "path": "a08",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_i",
       "label": "A09",
       "title": "Winter in ALGO Kingdom",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_i"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_i",
+      "directory": {
+        "path": "a09",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_j",
       "label": "A10",
       "title": "Resort Hotel",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_j"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_j",
+      "directory": {
+        "path": "a10",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_k",
       "label": "A11",
       "title": "Binary Search 1",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_k"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_k",
+      "directory": {
+        "path": "a11",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_l",
       "label": "A12",
       "title": "Printer",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_l"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_l",
+      "directory": {
+        "path": "a12",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_m",
       "label": "A13",
       "title": "Close Pairs",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_m"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_m",
+      "directory": {
+        "path": "a13",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_n",
@@ -475,49 +535,89 @@
       "id": "tessoku_book_ca",
       "label": "B02",
       "title": "Divisor Check",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ca"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ca",
+      "directory": {
+        "path": "b02",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_cb",
       "label": "B03",
       "title": "Supermarket 1",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cb"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cb",
+      "directory": {
+        "path": "b03",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_cc",
       "label": "B04",
       "title": "Binary Representation 2",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cc"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cc",
+      "directory": {
+        "path": "b04",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_ce",
       "label": "B06",
       "title": "Lottery",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ce"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ce",
+      "directory": {
+        "path": "b06",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "math_and_algorithm_al",
       "label": "B07",
       "title": "Convenience Store 2",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/math_and_algorithm_al"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/math_and_algorithm_al",
+      "directory": {
+        "path": "b07",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_cg",
       "label": "B08",
       "title": "Counting Points",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cg"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cg",
+      "directory": {
+        "path": "b08",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_ch",
       "label": "B09",
       "title": "Papers",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ch"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ch",
+      "directory": {
+        "path": "b09",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_cj",
       "label": "B11",
       "title": "Binary Search 2",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cj"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cj",
+      "directory": {
+        "path": "b11",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_ck",
@@ -529,7 +629,12 @@
       "id": "tessoku_book_cl",
       "label": "B13",
       "title": "Supermarket 2",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cl"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cl",
+      "directory": {
+        "path": "b13",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_cm",
