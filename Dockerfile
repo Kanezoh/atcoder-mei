@@ -6,8 +6,10 @@ RUN apt-get update && apt-get install -y \
     git \
     clangd
 
-# latestのneovimのインストール、通常のapt-getだと古いバージョンしか入らない
+# 環境変数
 ENV TZ=Asia/Tokyo
+
+# latestのneovimのインストール、通常のapt-getだと古いバージョンしか入らない
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 RUN apt-get update && apt-get install -y software-properties-common \
     && add-apt-repository ppa:neovim-ppa/stable \
@@ -34,10 +36,6 @@ RUN mv ./main.cpp $(acc config-dir)/cpp
 
 # oj t で実行できるようにテストのディレクトリ名を変更
 RUN acc config default-test-dirname-format test
-
-# エイリアスを設定
-COPY ./alias /root
-RUN cat /root/alias >> /root/.bashrc
 
 RUN export CPLUS_INCLUDE_PATH=/workspaces/atcoder-vim/ac-library/ 
 RUN mkdir /root/.config/nvim/

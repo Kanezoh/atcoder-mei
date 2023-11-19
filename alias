@@ -1,3 +1,0 @@
-alias cpl="g++ -std=gnu++17 -o ./a.out ./main.cpp && oj t"
-alias cpl-acl="g++ -std=gnu++17 ./main.cpp -I /workspaces/atcoder-vim/ac-library/ -o ./a.out && oj t"
-alias sub="acc s -s -- -y"
