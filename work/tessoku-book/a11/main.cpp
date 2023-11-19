@@ -15,32 +15,21 @@ typedef long long ll;
 // #include <atcoder/all>
 // using namespace atcoder;
 
-// printf("%.3lf", S);
-// 小数で割ったあまり　fmod(1,1.0)
-// 末尾3文字 str.substr(str.length() - 3)
-// 円周率 M_PI
-// 等差数列の和
-// a1: 初項、n: 項数、d: 項差
-// return n * (2 * a1 + (n - 1) * d) /2
-
-ll N,X;
-vector<ll> A(100000);
-
-ll search(ll x) {
-  ll L=0, R=N-1;
-  while(L<=R) {
-    ll M = (L+R)/2;
-    if (x < A[M]) R = M-1;
-    if (x > A[M]) L = M+1;
-    if (x == A[M]) return M;
-  }
-  return -1;
-}
-
 int main() {
-  cin>>N>>X;
+  ll N,X;cin>>N>>X;
+  vector<ll> A(N);
   REP(i, N) cin>>A[i];
-  ll Answer = search(X);
-  OUT(Answer+1);
+  ll L = 0, R = N;
+  while(L<R) {
+    ll m = (L+R) / 2;
+    if (A[m] == X) {
+      return 0;
+    } else if (A[m] < X) {
+      L = m+1;
+    } else {
+      R = m-1;
+    }
+  }
 }
+
 
