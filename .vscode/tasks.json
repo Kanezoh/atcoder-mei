@@ -32,7 +32,7 @@
         {
             "label": "CheckTestCase",
             "type": "shell",
-            "command": "cd ${fileDirname}  && g++ -std=gnu++17 ${fileBasename} -o ${fileBasenameNoExtension} && oj test -c \"${fileDirname}/${fileBasenameNoExtension}\" -d ${fileDirname}/test/",
+            "command": "cd ${fileDirname}  && g++ -std=gnu++17 -g -Wall -Wextra -Wshadow -I${workspaceFolder}/ac-library/ ${fileBasename} -o ${fileBasenameNoExtension} && oj test -c \"${fileDirname}/${fileBasenameNoExtension}\" -d ${fileDirname}/test/",
             "presentation": {
                 "reveal": "always",
                 "focus": true,
