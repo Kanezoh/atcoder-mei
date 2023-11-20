@@ -11,7 +11,15 @@ int64_t solve(int n, const vector<int64_t>& a) {
 }
 
 vector<pair<char,int>> renchoAsshuku(string s) {
-  vector v = vector<pair<char, int>>
+  int n = s.size();
+  vector<pair<char,int>> ret;
+  for(int l=0;l<n;l++) {
+    int r = l+1;
+    int i = 0;
+    while(r<n&&s[l]==s[r]) r++;
+    ret.push_back({s[l], r-l});
+  }
+  return ret;
 }
 
 int main() {
@@ -23,8 +31,16 @@ int main() {
   int n; cin >> n;
   string s;cin>>s;
 
-  // solve
-  auto ans = solve(n, a);
+  auto ret = renchoAsshuku(s);
+  map<char,int> mp;
+  REP(i, ret.size()) {
+    auto p = ret[i];
+    mp[p.first] = max(mp[p.first], p.second);
+  }
+  REP(i, mp.size()) {
+    mp[i];
+  }
+  
 
   // output
   cout << ans << endl;
