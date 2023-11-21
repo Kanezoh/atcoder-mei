@@ -5,6 +5,7 @@
 #define REP3R(i, m, n) for (int i = (int)(n) - 1; (i) >= (int)(m); -- (i))
 #define ALL(x) std::begin(x), std::end(x)
 using namespace std;
+typedef long long ll;
 
 int64_t solve(int n, const vector<int64_t>& a) {
     // ...
@@ -13,11 +14,12 @@ int64_t solve(int n, const vector<int64_t>& a) {
 vector<pair<char,int>> renchoAsshuku(string s) {
   int n = s.size();
   vector<pair<char,int>> ret;
-  for(int l=0;l<n;l++) {
+  for(int l=0;l<n;) {
     int r = l+1;
     int i = 0;
     while(r<n&&s[l]==s[r]) r++;
     ret.push_back({s[l], r-l});
+    l=r;
   }
   return ret;
 }
@@ -37,12 +39,12 @@ int main() {
     auto p = ret[i];
     mp[p.first] = max(mp[p.first], p.second);
   }
-  REP(i, mp.size()) {
-    mp[i];
+  ll ans = 0;
+  auto iter = mp.begin();
+  while (iter != mp.end()) {
+    ans += iter->second;
+    ++iter;
   }
-  
-
-  // output
   cout << ans << endl;
 }
 
